@@ -1,0 +1,179 @@
+.reviews {
+    column-count: 2;
+    column-gap: 27px;
+}
+
+.review__photo {
+    margin-right: 22px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}
+
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+}
+
+.review__user:after {
+    content: url(../../img/icons/vk-blue.png);
+    height: 30px;
+    margin-left: 8px;
+}
+
+.avatar {
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+
+.review__header {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #2E77A4;
+    margin-bottom: 11px;
+
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag{
+    font-size: 13px;
+    color: #303030;
+    padding: 9px 18px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--bg--green {
+    background: #B9EAE4;
+}
+
+.review__title {
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    color: #303030;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+
+.review__content-text {
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #818181;
+}
+
+.review__data {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #1A1B1E;
+}
+
+
+
+.form__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.form__controls-title {
+    width: 36%;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.form__input{
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+}
+
+.form__input:focus-visible{
+    outline: 1px solid #F5170E;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input:last-child{
+    margin-right: 0;
+}
+
+.form__input--textarea {
+    height: 235px;
+}
+
+.controls__elem {
+    cursor: pointer;
+
+}
+
+.controls__checkbox:checked ~ .controls__tag{
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__buttons{
+        display: flex;
+        justify-content: flex-end;
+}
+
+.form__button{
+    margin-right: 17px;
+}
+
+.form__button:last-child{
+    margin-right: 0;
+}

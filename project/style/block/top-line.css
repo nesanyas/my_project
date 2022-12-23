@@ -1,0 +1,54 @@
+.top-line {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+    background: url(../../img/services/headline.jpeg) right 60% center no-repeat;
+}
+
+
+.top-line__container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 98px;
+    margin-bottom: 100px;
+}	
+
+.breadcrums__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrums__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrums__item--active .breadcrums__link {
+    font-weight: 600;
+}
+
+.breadcrums__item:after {
+    content: "/";
+    color: #9A9A9A;
+}
+
+.breadcrums__item:last-child:after {
+    display: none;
+}
+
+.breadcrums__link {
+    color: #9A9A9A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: underline;
+    padding: 0 5px;
+}

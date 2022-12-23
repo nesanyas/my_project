@@ -1,0 +1,21 @@
+
+.separator {
+    background:url(../../img/couple.png) right 34% bottom no-repeat, 
+    url(../../img/midleline.jpeg) center no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.separator__content {
+    max-width: 50%;
+}
+
+.separator__title{
+    font-style: normal;
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
